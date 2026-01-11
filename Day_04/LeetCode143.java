@@ -1,5 +1,3 @@
-package Day_11;
-
 public class LeetCode143 {
     static class ListNode {
         int val;
@@ -71,3 +69,4 @@ public class LeetCode143 {
         // Output: 1 5 2 4 3
     }
 }
+
