@@ -1,5 +1,3 @@
-package Day_11;
-
 public class LeetCode70{
     public static void main(String[] args){
         int n=2;
@@ -14,3 +12,4 @@ public class LeetCode70{
         System.out.println(current);
     }
 }
+
