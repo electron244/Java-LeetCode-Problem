@@ -1,4 +1,3 @@
-package Day_11;
 import java.util.Stack;
 
 public class LeetCode946 {
@@ -24,3 +23,4 @@ public class LeetCode946 {
         System.out.println(ans);
     }
 }
+
