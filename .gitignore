@@ -1,0 +1,6 @@
+*.class
+/out
+InfixToPostfix.java
+Practical10.java
+.idea
+.vscode
