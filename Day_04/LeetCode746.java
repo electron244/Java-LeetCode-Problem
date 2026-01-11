@@ -1,5 +1,3 @@
-package Day_11;
-
 public class LeetCode746 {
     public int minCostClimbingStairs(int[] cost) {
         int first = cost[0];
@@ -20,3 +18,4 @@ public class LeetCode746 {
         System.out.println(ans);
     }
 }
+
