@@ -1,5 +1,3 @@
-import java.net.Inet4Address;
-import java.util.Stack;
 
 public class LeetCode682 {
     public static void main(String[] args) {
@@ -9,10 +7,14 @@ public class LeetCode682 {
         int i = 0;
         for(String ch : operations){
             switch (ch){
-                case "+":s[i] = s[i-1]+s[i-2];i++;break;
-                case "D": s[i] = 2*s[i-1];i++;break;
-                case "C":i--;break;
-                default:s[i++] = Integer.parseInt(ch);
+                case "+" -> {
+                    s[i] = s[i-1]+s[i-2];i++;
+                }
+                case "D" -> {
+                    s[i] = 2*s[i-1];i++;
+                }
+                case "C" -> i--;
+                default -> s[i++] = Integer.parseInt(ch);
             }
         }
         for(int k =0 ;k<i;k++) sum += s[k];

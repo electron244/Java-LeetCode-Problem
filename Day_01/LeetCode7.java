@@ -8,7 +8,7 @@ public class LeetCode7 {
             int digit = num%10;
             num = num/10;
             rev = rev*10 + digit;
-            System.out.println(rev);
+            System.out.println(rev*sign);
         }
     }
 }
