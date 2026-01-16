@@ -14,7 +14,6 @@ public class LeetCode125 {
         }
         return true;
     }
-
     public static void main(String[] args) {
         LeetCode125 obj = new LeetCode125();
         String s = "A man, a plan, a canal: Panama";
