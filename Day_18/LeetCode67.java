@@ -9,10 +9,12 @@ public class LeetCode67 {
 
         while (i >= 0 || j >= 0 || carry == 1) {
             if (i >= 0) {
-                carry += a.charAt(i--) - '0';
+                carry += a.charAt(i) - '0';
+                i--;
             }
             if (j >= 0) {
-                carry += b.charAt(j--) - '0';
+                carry += b.charAt(j) - '0';
+                j--;
             }
             sb.append(carry % 2);
             carry /= 2;
@@ -21,8 +23,8 @@ public class LeetCode67 {
     }
 
     public static void main(String[] args) {
-        String a ="11";
-        String b ="1";
+        String a ="1010";
+        String b ="1011";
         LeetCode67 obj = new LeetCode67();
         String ans = obj.addBinary(a, b);
         System.out.println(ans);
