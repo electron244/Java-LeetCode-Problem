@@ -12,6 +12,6 @@ public class LeetCode168 {
         LeetCode168 obj = new LeetCode168();
         int num= 28;
         String ans=obj.convertToTitle(num);
-        System.out.println();
+        System.out.println(ans);
     }
 }
