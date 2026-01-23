@@ -22,6 +22,6 @@ public class LeetCode704 {
         int[] arr = {-1,0,3,5,9,12};
         int target = 9;
         int ans = obj.search(arr, target);
-        System.out.println(ans);
+        System.out.print(ans);
     }
 }
