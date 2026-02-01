@@ -6,21 +6,18 @@ public class LeetCode33 {
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
-            // Found target
+            
             if (nums[mid] == target) {
                 return mid;
             }
 
-            // Determine which half is sorted
-            if (nums[left] <= nums[mid]) { // Left half is sorted
-                // Check if target is in the sorted left half
+            if (nums[left] <= nums[mid]) { 
                 if (nums[left] <= target && target < nums[mid]) {
                     right = mid - 1;
                 } else {
                     left = mid + 1;
                 }
-            } else { // Right half is sorted
-                // Check if target is in the sorted right half
+            } else { 
                 if (nums[mid] < target && target <= nums[right]) {
                     left = mid + 1;
                 } else {
