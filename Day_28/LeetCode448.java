@@ -21,7 +21,7 @@ public class LeetCode448{
     public static void main(String[] args) {
         LeetCode448 obj = new LeetCode448();
         int[] nums = {4,3,2,7,8,2,3,1};
-        List ans = obj.findDisappearedNumbers(nums);
+        List<Integer> ans = obj.findDisappearedNumbers(nums);
         System.out.println(ans);
     }
 }
