@@ -3,9 +3,6 @@ public class LeetCode61 {
         int val;
         ListNode next;
 
-        ListNode() {
-        }
-
         ListNode(int val) {
             this.val = val;
         }
